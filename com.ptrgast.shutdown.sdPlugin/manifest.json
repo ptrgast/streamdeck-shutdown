@@ -1,0 +1,42 @@
+{
+	"Name": "Shutdown",
+	"Version": "0.1.0",
+	"Author": "ptrgast",
+	"Actions": [
+		{
+			"Name": "Shutdown",
+			"UUID": "com.ptrgast.shutdown.shutdown",
+			"Icon": "imgs/actions/counter/icon",
+			"Tooltip": "Shutdown you PC",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/counter/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "Shutdown",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Shutdown your Windows PC",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.5"
+	},
+	"OS": [
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.ptrgast.shutdown"
+}
