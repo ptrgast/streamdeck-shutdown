@@ -6,15 +6,14 @@
 		{
 			"Name": "Shutdown",
 			"UUID": "com.ptrgast.shutdown.shutdown",
-			"Icon": "imgs/actions/counter/icon",
+			"Icon": "imgs/actions/shutdown/action",
 			"Tooltip": "Shutdown you PC",
 			"Controllers": [
 				"Keypad"
 			],
 			"States": [
 				{
-					"Image": "imgs/actions/counter/key",
-					"TitleAlignment": "middle"
+					"Image": "imgs/actions/shutdown/states/shutdown"
 				}
 			]
 		}
