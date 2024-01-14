@@ -22,6 +22,7 @@
 	"Category": "Shutdown",
 	"CategoryIcon": "imgs/plugin/category-icon",
 	"CodePath": "bin/plugin.js",
+	"PropertyInspectorPath": "index_pi.html",
 	"Description": "Shutdown your Windows PC",
 	"Icon": "imgs/plugin/marketplace",
 	"SDKVersion": 2,
