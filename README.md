@@ -1,6 +1,8 @@
 # Shutdown Computer plugin for Stream Deck
 
-This is a plugin for Elgato Stream Deck that allows you to turn off your Windows computer with the press of a button.
+This is a plugin for Elgato Stream Deck that allows you to turn off a Windows computer with the press of a button.
+
+![The Shutdown plugin in action](assets/demonstration.gif)
 
 ## Features
 
